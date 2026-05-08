@@ -12,7 +12,6 @@ class Result {
         for (int i = 0; i < n; i++) {
             subtreeSum[i] = files_size.get(i);
         }
-
         // 3. THE "EASY" LOGIC: Bottom-Up Summing
         // We walk BACKWARDS from the last folder to the first.
         // This ensures kids report their size to parents before parents report to grand-parents.
