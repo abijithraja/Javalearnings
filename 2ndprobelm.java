@@ -7,7 +7,6 @@ class Result {
         // 1. Create an array to store the total size of each department (subtree)
         long[] subtreeSum = new long[n];
 
-        
         // 2. Fill it with the individual file sizes first
         for (int i = 0; i < n; i++) {
             subtreeSum[i] = files_size.get(i);
