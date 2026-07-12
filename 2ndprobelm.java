@@ -17,7 +17,7 @@ class Result {
         for (int i = n - 1; i > 0; i--) {
             int myParent = parent.get(i);
             subtreeSum[myParent] += subtreeSum[i]; 
-        }
+        } 
         // 4. The total size of the whole tree is now at index 0
         long totalSum = subtreeSum[0];
         long minDifference = Long.MAX_VALUE;
