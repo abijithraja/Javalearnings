@@ -31,6 +31,7 @@ class Result {
                 minDifference = currentDiff;
             }
         }
+        
         return (int) minDifference;
     }
     
