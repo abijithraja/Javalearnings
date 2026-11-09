@@ -30,6 +30,7 @@ class Result {
             if (currentDiff < minDifference) {
                 minDifference = currentDiff;
             }
+            
         }
         return (int) minDifference;
     }
